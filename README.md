@@ -3,13 +3,14 @@ A tool to integrate information from several websites to give students useful in
 
 This project aims to create a customized search platform for college students to find local housing near the university. We are currently limiting our scope to CMU. 
 
-**Prerequisites**
+## Prerequisites
 Python 3.7
 - Packages mentioned in requirements.txt
 - Mozilla Firefox
 - geckodriver (runs on macOS using default settings for another OS change config.py)
 - Google API Key (a default key provided in config.py for instructor's evaluation)
-**Data Sources**
+
+## Data Sources**
 - Craigslist (Default: Scrapes 2 pages. Can be increased in config.py)
 - Yelp API
 - CMU Shuttle Maps (4 custom Google Maps)
@@ -17,7 +18,7 @@ Python 3.7
 
 python3 main.py runs the application with default options. By default the application runs using cached data from the previous run. To run using the latest data use options --latest or --refresh_all. Additional optional arguments are listed below.
 
-**Help menu**
+## Help menu
 main.py -h presents a help as shown below:
 
 ```
@@ -36,10 +37,10 @@ optional arguments:
                         Optional price range filter. Usage: -p <MIN> <MAX>
   -t TOP, --top TOP     Number of properties to be displayed
  ```
-**Interactions**
+##Interactions
 This is the interactive menu presented to the user to navigate the housing recommendations
 
-Step 1: Input 'y' to see the property recommendations
+###### Step 1: Input 'y' to see the property recommendations
 Show the top 6 properties we recommend? (y to continue, exit to quit)
 Example output:
 ```
@@ -54,7 +55,8 @@ Neighborhood: Squirrel Hill / Murry Ave @ Forward Ave
 Size: 770.0 sqft
 Number of bedrooms: 1
 Price: 1295$/month
-Step 2: Select the property number from the displayed list
+```
+###### Step 2: Select the property number from the displayed list
 Select a property for more information : (type 'exit' to quit)
 Example output:
 
@@ -78,6 +80,8 @@ Restaurant name: Spork Pit
 Rating: 3.5
 Restaurant name: Friendship Perk and Brew
 Rating: 4.5
-Step 3: Option to go back to property listings or exit
+```
+###### Step 3: Option to go back to property listings or exit
+```
 Press 'b' to go back to properties listing or type 'exit' to quit
 ```
