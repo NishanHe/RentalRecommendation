@@ -17,11 +17,6 @@ CMU Shuttle Maps (4 custom Google Maps)
 Google Maps API
 Detailed description and sample data: Spreadsheet
 
-Source Code
-Link to project repository: BitBucket Repo
-
-Usage
-Demo video is available here: Youtube Video
 
 python3 main.py runs the application with default options. By default the application runs using cached data from the previous run. To run using the latest data use options --latest or --refresh_all. Additional optional arguments are listed below.
 
@@ -48,7 +43,7 @@ This is the interactive menu presented to the user to navigate the housing recom
 Step 1: Input 'y' to see the property recommendations
 Show the top 6 properties we recommend? (y to continue, exit to quit)
 Example output:
-
+`
 1. One Bedroom Available 08/01  
 Neighborhood: Oakland
 Size: 415.0 sqft
@@ -86,3 +81,4 @@ Restaurant name: Friendship Perk and Brew
 Rating: 4.5
 Step 3: Option to go back to property listings or exit
 Press 'b' to go back to properties listing or type 'exit' to quit
+`
