@@ -43,7 +43,7 @@ This is the interactive menu presented to the user to navigate the housing recom
 Step 1: Input 'y' to see the property recommendations
 Show the top 6 properties we recommend? (y to continue, exit to quit)
 Example output:
-`
+```
 1. One Bedroom Available 08/01  
 Neighborhood: Oakland
 Size: 415.0 sqft
@@ -81,4 +81,4 @@ Restaurant name: Friendship Perk and Brew
 Rating: 4.5
 Step 3: Option to go back to property listings or exit
 Press 'b' to go back to properties listing or type 'exit' to quit
-`
+```
