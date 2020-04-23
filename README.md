@@ -10,7 +10,7 @@ Python 3.7
 - geckodriver (runs on macOS using default settings for another OS change config.py)
 - Google API Key (a default key provided in config.py for instructor's evaluation)
 
-## Data Sources**
+## Data Sources
 - Craigslist (Default: Scrapes 2 pages. Can be increased in config.py)
 - Yelp API
 - CMU Shuttle Maps (4 custom Google Maps)
@@ -59,7 +59,7 @@ Price: 1295$/month
 ###### Step 2: Select the property number from the displayed list
 Select a property for more information : (type 'exit' to quit)
 Example output:
-
+```
 --------------Transport Information---------------
 
 Distance to nearest bus stop: 82.0 meters
